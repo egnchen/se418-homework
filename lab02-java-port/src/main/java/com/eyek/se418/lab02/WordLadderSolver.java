@@ -19,18 +19,12 @@ public class WordLadderSolver {
         }
     }
 
-    public void loadDictionary(int length) throws IOException{
+    public void loadDictionary(int length) throws IOException, FileNotFoundException{
         // read data from English dictionary
 
         // open file
         FileReader dictFile;
-        try {
-            dictFile = new FileReader("assets/EnglishWords.txt");
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-            System.exit(-1);
-            return;
-        }
+        dictFile = new FileReader("assets/EnglishWords.txt");
 
         // read file
         BufferedReader dictReader = new BufferedReader(dictFile);

@@ -19,9 +19,8 @@ public class WordLadderServiceController {
         try {
             solver.loadDictionary(src.length());
             return new WordLadder("OK", src, dst, solver.findLadder(src, dst));
-
         } catch (Exception e) {
-            return new WordLadder("internal error", src, dst, null);
+            return new WordLadder("internal error, check actuator", src, dst, null);
         }
     }
 }

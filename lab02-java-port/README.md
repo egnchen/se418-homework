@@ -50,3 +50,8 @@ GET http://localhost:8000/get-ladder?src=lover&dst=hate
 
 {"state":"input error","src":"lover","dst":"hate","ladder":null}
 ```
+
+### Actuator support
+By taking advantage of `Spring Actuator` we have implemented a RESTful management API.
+
+The API can be accessed through `/actuator/health`, and should return the status of disk usage and dictionary file.

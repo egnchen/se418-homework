@@ -10,7 +10,8 @@ import org.springframework.test.web.servlet.RequestBuilder;
 
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestBuilders.formLogin;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.redirectedUrl;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest
@@ -20,12 +21,21 @@ public class AuthenticationTest {
     private MockMvc mockMvc;
 
     @Test
-    public void testAuthenticationShouldAccept() throws Exception{
+    public void testAuthenticationShouldAccept() throws Exception {
         RequestBuilder requestBuilder = formLogin().user("tom").password("secretForTom");
         mockMvc.perform(requestBuilder)
                 .andDo(print())
                 .andExpect(status().is3xxRedirection())
-                .andExpect(redirectedUrl("/"))
-                .andExpect(cookie().exists("JSESSIONID"));
+                .andExpect(redirectedUrl("/"));
     }
+
+    @Test
+    public void testAuthenticationShouldReject() throws Exception {
+        RequestBuilder requestBuilder = formLogin().user("tom").password("incorrectPassword");
+        mockMvc.perform(requestBuilder)
+                .andDo(print())
+                .andExpect(status().is3xxRedirection())
+                .andExpect(redirectedUrl("/login?error"));
+    }
+
 }

@@ -44,7 +44,7 @@ Prometheus（普罗米修斯）是一套开源的监控&报警&时间序列数�
 * 简单请求：`/get-ladder?src=path&dst=love`，ladder长度为5，单次请求约使用300ms。
 * 复杂请求：`/get-ladder?src=charge&dst=comedo`，根据[这篇文章](<https://blog.wolfram.com/2012/01/11/the-longest-word-ladder-puzzle-ever/>)可知是最长的ladder，在测试中，ladder长度为23，单次请求约使用7000ms。
 
-![Snipaste_2019-04-21_17-21-26](E:\eK\Documents\SJTU\sophomore-b\se418\lab02-java-port\prometheus_imgs\Snipaste_2019-04-21_17-21-26.png)
+![Snipaste_2019-04-21_17-21-26](prometheus_imgs/Snipaste_2019-04-21_17-21-26.png)
 
 ### 非并发简单请求测试
 

@@ -249,11 +249,8 @@ Percentage of the requests served within a certain time (ms)
 * Prometheus是一个方便的服务监控工具。通过HTTP API周期性地抓取状态，Prometheus可以做到轻量的、非侵入式的、高可用的服务监控。
 * 本文中所测试的Spring应用并发性能并不是很好，可能的改进方向有以下几个：
   * 优化内存使用，将Word Ladder中的字典文件缓存而非重复读取
+  * 对请求结果进行缓存
   * 提高JVM对内存空间阈值
   * 使用有更多逻辑线程的CPU
   * 对于大量并发的复杂请求，使用队列降低并行数量
   * 使用分布式+LB的硬件架构提高并发效率
-
-
-
-## 

@@ -57,5 +57,4 @@ By taking advantage of `Spring Actuator` we have implemented a RESTful managemen
 The API can be accessed through `/actuator/health`, and should return the status of disk usage and dictionary file.
 
 ### Prometheus monitoring support
-Read [this doc]()
-[Contribution guidelines for this project](Prometheus 系统监控与压力测试.md)
+Read [this doc](Prometheus 系统监控与压力测试.md)

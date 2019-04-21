@@ -15,9 +15,13 @@ public class ApplicationSecurity extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(final HttpSecurity http) throws Exception {
         http
+                .csrf().disable()
+
                 .authorizeRequests()
                 .antMatchers("/", "/home").permitAll()
-                .antMatchers("/actuator").hasRole("ADMIN")
+                .antMatchers("/actuator/prometheus").permitAll()
+                .antMatchers("/actuator/*").hasRole("ADMIN")
+                .antMatchers("/get-ladder").permitAll()
                 .anyRequest().authenticated()
                 .and()
 

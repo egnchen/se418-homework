@@ -1,6 +1,6 @@
 # Prometheus 系统监控与压力测试
 
-## ## Intro
+## Intro
 
 ### What is Prometheus
 

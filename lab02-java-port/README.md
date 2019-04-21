@@ -55,3 +55,6 @@ GET http://localhost:8000/get-ladder?src=lover&dst=hate
 By taking advantage of `Spring Actuator` we have implemented a RESTful management API.
 
 The API can be accessed through `/actuator/health`, and should return the status of disk usage and dictionary file.
+
+### Prometheus monitoring support
+Read [this doc](Prometheus%20系统监控与压力测试.md)

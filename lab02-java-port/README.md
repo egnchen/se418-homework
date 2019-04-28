@@ -58,3 +58,11 @@ The API can be accessed through `/actuator/health`, and should return the status
 
 ### Prometheus monitoring support
 Read [this doc](Prometheus%20系统监控与压力测试.md)
+
+### Docker support
+This spring application has been containerized. To run this app on docker, just execute:
+```bash
+docker run -p 8080:8080 -t eyekill/lab02:latest
+```
+
+The repo can be found at: [repo @ docker hub](https://cloud.docker.com/repository/registry-1.docker.io/eyekill/lab02)

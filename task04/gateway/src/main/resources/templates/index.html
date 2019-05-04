@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>WordLadder</title>
+</head>
+<body>
+<h1>Word Ladder</h1>
+<h2>Implemented in microservices</h2>
+<p th:text="${#session.getAttribute('token') == null ? 'not logged in' : 'logged in'}" />
+<form action="/get-ladder" method="get">
+    <label>From this word:<input type="text" name="src" /></label>
+    <label>To this word:<input type="text" name="dst" /></label>
+    <input type="submit" value="submit" />
+</form>
+</body>
+</html>

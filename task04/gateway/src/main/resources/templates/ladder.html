@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+<h1>Ladder result</h1>
+<p th:text="${ladder.state}"></p>
+<table th:if="${ladder.getLadder() != null}" th:each="word : ${ladder.getLadder()}">
+    <td th:text="${word}" />
+</table>
+<p th:if="${ladder.getLadder() == null}">No ladder available.</p>
+<br />
+<a th:href="@{/}">Return</a>
+</body>
+</html>

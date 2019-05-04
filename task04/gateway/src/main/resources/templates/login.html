@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>WordLadder login</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>WordLadder login page</h1>
+<p th:text="${status}" />
+<form action="/login" method="post">
+    <label>
+        用户名
+        <input type="text" name="username" />
+    </label>
+    <label>
+        密码
+        <input type="password" name="password" />
+    </label>
+    <input type="submit" value="登录" />
+</form>
+</body>

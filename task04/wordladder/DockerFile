@@ -1,0 +1,5 @@
+FROM openjdk:8-jdk-alpine
+EXPOSE 2233
+ADD /target/wordladder-0.0.1-SNAPSHOT.jar main.jar
+COPY assets/ /assets/
+ENTRYPOINT ["java", "-jar", "main.jar"]

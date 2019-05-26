@@ -30,9 +30,9 @@ class RequestElem {
 
 public class RequestQueue {
 
-    public static long defaultTimeoutMillis = 1000; // 1s
+    public static long defaultTimeoutMillis = 2500; // 2.5s
     // act like a stack if more than 20 requests are in the queue
-    public static int defaultThreshold = 20;
+    public static int defaultThreshold = 10;
 
     private final BlockingDeque<RequestElem> queue;
     private final long timeoutMillis;
@@ -54,27 +54,31 @@ public class RequestQueue {
 
     // remove outdated requests
     public int refresh() {
-        if(queue.isEmpty())
-            return 0;
+        synchronized (queue) {
+            if (queue.isEmpty())
+                return 0;
 
-        long timeNow = System.currentTimeMillis();
-        int ret = 0;
-        try {
-            while (timeNow - queue.getFirst().getTimeReceived().getTime() > this.timeoutMillis) {
-                ret++;
-                queue.pollFirst().getChannel().close();
-                if (queue.poll() == null)
-                    // empty
-                    break;
+            long timeNow = System.currentTimeMillis();
+            int ret = 0;
+            try {
+                System.out.println(timeNow - queue.getFirst().getTimeReceived().getTime());
+                while (timeNow - queue.getFirst().getTimeReceived().getTime() > this.timeoutMillis) {
+                    ret++;
+                    queue.pollFirst().getChannel().close();
+                    if (queue.poll() == null)
+                        // empty
+                        break;
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        } catch (Exception e) {
-            e.printStackTrace();
+            return ret;
         }
-        return ret;
     }
 
-    public void takeOne(RequestElem e) {
-        System.out.println(String.format("Received one, size = %d.", queue.size()));
+    public void addOne(RequestElem e) {
+        queue.offer(e);
+        System.out.println(String.format("Received one, size = %d.", getSize()));
     }
 
     // get one element according to the stack/queue role
@@ -82,15 +86,15 @@ public class RequestQueue {
     public RequestElem getOne() {
         int remove = this.refresh();
         if(remove > 0)
-            System.out.println(String.format("%d requests ignored", remove));
+            System.out.println(String.format("%d request(s) ignored", remove));
         try {
-            if (queue.size() > threshold) {
+            if (getSize() > threshold) {
                 System.out.println("Getting as stack");
-                return queue.takeFirst();
+                return queue.takeLast();
             }
             else {
                 System.out.println("Getting as queue");
-                return queue.takeLast();
+                return queue.takeFirst();
             }
         } catch (Exception e) {
             e.printStackTrace();

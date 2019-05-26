@@ -2,39 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df018c59-8c42-47c0-acd5-4232624477d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eyek/dequeproxy/LBEntryThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eyek/dequeproxy/LBHandlingThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eyek/dequeproxy/MySocketProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eyek/dequeproxy/RequestQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eyek/dequeproxy/SocketProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_12-45-31.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_12-45-31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_12-52-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_12-52-13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_12-52-46.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_12-52-46.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_13-06-21.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_13-06-21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_13-10-59.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_13-10-59.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_13-12-38.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_13-12-38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_13-28-08.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_13-28-08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_18-28-43.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_18-28-43.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_18-33-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_18-33-50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_18-39-27.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_18-39-27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_18-40-21.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_18-40-21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_18-42-23.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_18-42-23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_18-46-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_18-46-15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_19-06-59.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_19-06-59.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_19-13-35.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_19-13-35.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_19-15-07.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_19-15-07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_19-18-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_19-18-02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_19-25-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_19-25-20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_19-26-25.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_19-26-25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_19-26-44.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_19-26-44.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_19-29-37.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_19-29-37.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_19-31-44.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_19-31-44.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/Snipaste_2019-04-02_19-33-46.png" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/Snipaste_2019-04-02_19-33-46.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/imgs/animation.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/imgs/animation.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework2/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../task02/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task07/com/eyek/dequeproxy/MySocketProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task07/com/eyek/dequeproxy/MySocketProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task07/com/eyek/dequeproxy/RequestQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/task07/com/eyek/dequeproxy/RequestQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eyek/dequeproxy/LBEntryThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eyek/dequeproxy/LBEntryThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eyek/dequeproxy/RequestQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eyek/dequeproxy/RequestQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -60,22 +32,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/RequestQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+            <state relative-caret-position="22">
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#2349#2350#0" expanded="true" />
-                <element signature="e#2440#2441#0" expanded="true" />
-                <element signature="e#3177#3178#0" expanded="true" />
-                <element signature="e#3247#3248#0" expanded="true" />
+                <element signature="e#3396#3397#0" expanded="true" />
+                <element signature="e#3466#3467#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/LBEntryThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,33 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/LBHandlingThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/concurrent/ThreadPoolExecutor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="365" selection-start-line="365" selection-end-line="365" />
-              <folding>
-                <element signature="e#26679#26680#0" expanded="true" />
-                <element signature="e#26742#26743#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/MySocketProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#430#431#0" expanded="true" />
@@ -139,6 +88,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>queue.size</find>
+      <find>ignore</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -151,17 +106,23 @@
         <option value="$PROJECT_DIR$/src/com/eyek/dequeproxy/Producer.java" />
         <option value="$PROJECT_DIR$/src/com/eyek/dequeproxy/SocketProducer.java" />
         <option value="$PROJECT_DIR$/src/com/eyek/dequeproxy/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/eyek/dequeproxy/LBEntryThread.java" />
         <option value="$PROJECT_DIR$/src/com/eyek/dequeproxy/LBHandlingThread.java" />
-        <option value="$PROJECT_DIR$/src/com/eyek/dequeproxy/RequestQueue.java" />
         <option value="$PROJECT_DIR$/src/com/eyek/dequeproxy/MySocketProducer.java" />
+        <option value="$PROJECT_DIR$/src/com/eyek/dequeproxy/LBEntryThread.java" />
+        <option value="$PROJECT_DIR$/src/com/eyek/dequeproxy/RequestQueue.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="168" />
-    <option name="y" value="45" />
-    <option name="width" value="1286" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-152" />
+    <option name="y" value="117" />
+    <option name="width" value="1452" />
     <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -204,6 +165,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -247,27 +209,26 @@
       <option name="presentableId" value="Default" />
       <updated>1558844899280</updated>
       <workItem from="1558844902974" duration="2163000" />
-      <workItem from="1558849727404" duration="13650000" />
+      <workItem from="1558849727404" duration="13934000" />
+      <workItem from="1558863765906" duration="4482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15813000" />
+    <option name="totallyTimeSpent" value="20579000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="45" width="1932" height="1041" extended-state="6" />
-    <editor active="true" />
+    <frame x="-358" y="207" width="1452" height="1035" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14607948" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32850942" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32951945" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32951945" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3993135" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.40207374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -276,11 +237,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32951945" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32975295" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
@@ -289,23 +251,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LBEntryPoitn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/SocketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LBEntryPoitn.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/SocketHandler.java" />
     <entry file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/concurrent/LinkedBlockingDeque.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -327,52 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/LBHandlingThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/LBEntryThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/RequestQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#2349#2350#0" expanded="true" />
-            <element signature="e#2440#2441#0" expanded="true" />
-            <element signature="e#3177#3178#0" expanded="true" />
-            <element signature="e#3247#3248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/concurrent/ThreadPoolExecutor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -384,15 +285,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/MySocketProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#430#431#0" expanded="true" />
             <element signature="e#480#481#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/RequestQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
+            <element signature="e#3466#3467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/LBEntryThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/eyek/dequeproxy/LBHandlingThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

@@ -31,7 +31,7 @@ public class LBEntryThread extends Thread {
                 SocketChannel socketChannel = this.serverSocketChannel.accept();
                 // System.out.println(String.format("Incoming request accepted from %s", socketChannel.getRemoteAddress().toString()));
                 RequestElem elem = new RequestElem(socketChannel);
-                requestQueue.takeOne(elem);
+                requestQueue.addOne(elem);
             }
         } catch (Exception e) {
             e.printStackTrace();

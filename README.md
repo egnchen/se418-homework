@@ -9,3 +9,4 @@ This course focus on the latest and most demanding technologies in software engi
 - [x] task`04` Monitoring the application with `prometheus`
 - [x] task`05` Containerizing your java application and publish it to docker hub
 - [x] task`06` Divide your application into microservices
+- [x] task`07` Implement a container to load balance incoming requests with a queue/stack policy.

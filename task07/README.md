@@ -36,7 +36,7 @@ Detailed testing results can be found in [results.md](results.md).
 
 ![](chart1.png)
 
-With 50 requests in concurrency, the average single request processing time is around 1300~1400 ms when no stack is used. Things get a lot better when stacks are used, pushing the median processing time to around 800 ms(threshold=20), 500 ms(threshold=10) and 400 ms(threshold=5). However, number of denials of service keeps going up too, and when using 5 as the queue threshold, about 5~10% of requests are delayed, which is not acceptable.
+With 50 requests in concurrency, the average single request processing time is around 1300-1400 ms when no stack is used. Things get a lot better when stacks are used, pushing the median processing time to around 800 ms(threshold=20), 500 ms(threshold=10) and 400 ms(threshold=5). However, number of denials of service keeps going up too, and when using 5 as the queue threshold, about 5-10% of requests are delayed, which is not acceptable.
 
 ![](chart2.png)
 
